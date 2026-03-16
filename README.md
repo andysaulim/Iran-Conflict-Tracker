@@ -2,7 +2,7 @@
 
 A daily cost tracker for the U.S. military campaign against Iran, based on CSIS Defense 360 analysis by Mark F. Cancian and Chris H. Park.
 
-**Live site:** [https://YOUR_USERNAME.github.io/YOUR_REPO]([https://YOUR_USERNAME.github.io/YOUR_REPO](https://andysaulim.github.io/Iran-War-Tracker/))
+**Live site:** (https://andysaulim.github.io/Iran-War-Tracker/))
 
 ## Sources
 - [CSIS, Mar 13 2026 — D+6 update ($11.3B)](https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12)
@@ -15,7 +15,7 @@ Hosted via GitHub Pages. No build step — single `index.html` file.
 To deploy:
 1. Push this repo to GitHub
 2. Go to Settings → Pages → Source: Deploy from branch → `main` → `/ (root)`
-3. Site will be live at `[https://YOUR_USERNAME.github.io/YOUR_REPO/](https://andysaulim.github.io/Iran-War-Tracker/)`
+3. Site will be live at `(https://andysaulim.github.io/Iran-War-Tracker/)`
 
 ## Updating data
 
