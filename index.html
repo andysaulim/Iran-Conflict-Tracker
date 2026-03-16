@@ -292,6 +292,7 @@ footer a:hover{opacity:1}
       <a href="#s-breakdown">Breakdown</a>
       <a href="#s-munitions">Munitions</a>
       <a href="#s-charts">Charts</a>
+      <a href="#s-tables">Tables</a>
       <a href="#s-projection">Projection</a>
       <a href="#s-context">Context</a>
     </nav>
@@ -862,6 +863,223 @@ footer a:hover{opacity:1}
   </div>
 
   <!-- CONTEXT -->
+  <!-- CSIS TABLES -->
+  <div class="sec" id="s-tables">CSIS Tables <small>— Mar 13, 2026 update · directly from CSIS methodology</small></div>
+
+  <!-- TABLE 2: Implied munitions from $11.3B -->
+  <div class="card">
+    <div class="ct">Table 2 — Estimated Munitions Usage Implied by $11.3B (D+6)</div>
+    <div class="cn">CSIS worked backwards from the Pentagon's $11.3B figure to estimate what munitions quantities that total implies. These are CSIS estimates — DOD has not confirmed munitions counts by type. Source: CSIS Mar 13, 2026.</div>
+    <div class="uncertainty" style="margin-bottom:16px">
+      <strong>Methodology note</strong>
+      CSIS assumed 1.3 munitions per target (based on Operation Odyssey Dawn precedent for all-precision campaigns), with ~70–80% exquisite/mid-tier munitions in D+1–3 and ~90%+ low-cost munitions from D+5 onward. "The cost will be highly sensitive to the actual number and mix of munitions expended." — CSIS
+    </div>
+    <table class="t">
+      <thead>
+        <tr>
+          <th>Munition</th>
+          <th class="r">Unit Cost</th>
+          <th class="r" style="padding-right:24px">Est. Qty Used (D+6)</th>
+          <th class="r">Est. Cost</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div>Tomahawk (BGM-109)</div><div class="sub">Ship-launched · ground attack</div></td>
+          <td class="r vn">$3.6M</td>
+          <td class="r" style="padding-right:24px">~319</td>
+          <td class="r vg">~$1.15B</td>
+          <td style="font-size:12px;color:var(--mid)">Would nearly empty Navy ship magazines in region. Cannot be reloaded at sea.</td>
+        </tr>
+        <tr>
+          <td><div>JASSM-ER (AGM-158B)</div><div class="sub">Air-launched · long-range standoff</div></td>
+          <td class="r vn">~$1.1M</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r vg">Est. in totals</td>
+          <td style="font-size:12px;color:var(--mid)">Main air-launched long-range missile. Inventory ~3,500. Exact quantity not confirmed.</td>
+        </tr>
+        <tr>
+          <td><div>SM-3 (Block IB / IIA)</div><div class="sub">Air defense · ballistic missile intercept</div></td>
+          <td class="r vn">~$10–27M</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r vg">Est. in totals</td>
+          <td style="font-size:12px;color:var(--mid)">Used against Iranian ballistic missiles. FY2026 deliveries: 76 total.</td>
+        </tr>
+        <tr>
+          <td><div>SM-6</div><div class="sub">Air defense · cruise missiles &amp; drones</div></td>
+          <td class="r vn">~$4.1M</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r vg">Est. in totals</td>
+          <td style="font-size:12px;color:var(--mid)">Used against cruise missiles, drones, and terminal-phase ballistic missiles. FY2026: 125 deliveries.</td>
+        </tr>
+        <tr>
+          <td><div>Patriot PAC-3 MSE</div><div class="sub">Air defense · ballistic missiles</div></td>
+          <td class="r vn">High</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r vg">Est. in totals</td>
+          <td style="font-size:12px;color:var(--mid)">Pre-war inventory ~1,600 MSE. FY2026: 172 deliveries. Ongoing demand from Iranian BM attacks.</td>
+        </tr>
+        <tr>
+          <td><div>JDAM / Gravity Bombs</div><div class="sub">Air-launched · short-range precision</div></td>
+          <td class="r vn">~$80K/kit</td>
+          <td class="r" style="padding-right:24px">~2,600 (H+100)</td>
+          <td class="r vg">~$208M</td>
+          <td style="font-size:12px;color:var(--mid)">Based on 1.3:1 ratio against ~2,000 targets at H+100. Primary munition from D+5 onward. Large inventories.</td>
+        </tr>
+        <tr>
+          <td><div>ATACMS / PrSM</div><div class="sub">Ground-launched · HIMARS</div></td>
+          <td class="r vn">High</td>
+          <td class="r" style="padding-right:24px">Limited</td>
+          <td class="r vg">Est. in totals</td>
+          <td style="font-size:12px;color:var(--mid)">ATACMS: ~1,000 total, production ended 2007. PrSM: ~60 delivered total — first combat use in Epic Fury.</td>
+        </tr>
+        <tr class="total">
+          <td colspan="3"><strong>Total offensive + air defense munitions (D+6 CSIS est.)</strong></td>
+          <td class="r vn"><strong>~$9.9B</strong></td>
+          <td style="font-size:11px;color:var(--muted)">87.6% of $11.3B total</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TABLE 3: Stockpile assessment -->
+  <div class="card">
+    <div class="ct">Table 3 — U.S. Munitions Stockpile Assessment After D+6</div>
+    <div class="cn">CSIS: "The DOD does not appear to have an inventory problem in sustaining the current conflict because munitions use to date and expected future expenditures will not drive any inventories to zero. These expenditures, however, create risks in other theaters." Source: CSIS Mar 13, 2026.</div>
+    <table class="t">
+      <thead>
+        <tr>
+          <th>System</th>
+          <th class="r">Pre-war inventory</th>
+          <th class="r" style="padding-right:24px">Est. used D+6</th>
+          <th class="r" style="padding-right:24px">FY2026 deliveries</th>
+          <th class="r">Production covers usage?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div>Tomahawk</div><div class="sub">Ship-launched; cannot reload at sea</div></td>
+          <td class="r">~3,100</td>
+          <td class="r" style="padding-right:24px">~319</td>
+          <td class="r" style="padding-right:24px">190</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--red)">No — 190 vs. 319 used</td>
+        </tr>
+        <tr>
+          <td><div>JASSM / JASSM-ER</div><div class="sub">Air-launched; in-theater resupply possible</div></td>
+          <td class="r">~3,500</td>
+          <td class="r" style="padding-right:24px">Unknown</td>
+          <td class="r" style="padding-right:24px">Not specified</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--teal)">Likely — large inventory</td>
+        </tr>
+        <tr>
+          <td><div>ATACMS</div><div class="sub">Production ended 2007</div></td>
+          <td class="r">~1,000</td>
+          <td class="r" style="padding-right:24px">Unknown</td>
+          <td class="r" style="padding-right:24px">0</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--red)">No — line closed</td>
+        </tr>
+        <tr>
+          <td><div>PrSM</div><div class="sub">ATACMS successor; first combat use</div></td>
+          <td class="r">~60</td>
+          <td class="r" style="padding-right:24px">Unknown</td>
+          <td class="r" style="padding-right:24px">70</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)">Partial — just entering service</td>
+        </tr>
+        <tr>
+          <td><div>SM-3 (Block IB + IIA)</div><div class="sub">Ballistic missile defense</div></td>
+          <td class="r">Not specified</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r" style="padding-right:24px">76</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--red)">No — production below usage</td>
+        </tr>
+        <tr>
+          <td><div>SM-6</div><div class="sub">Cruise missile &amp; drone defense</div></td>
+          <td class="r">Not specified</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r" style="padding-right:24px">125</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--red)">No — production below usage</td>
+        </tr>
+        <tr>
+          <td><div>Patriot PAC-3 MSE</div><div class="sub">Also needed Ukraine + W. Pacific</div></td>
+          <td class="r">~1,600 MSE</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r" style="padding-right:24px">172</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--red)">No — 172 insufficient</td>
+        </tr>
+        <tr>
+          <td><div>THAAD</div><div class="sub">No deliveries since Aug 2023</div></td>
+          <td class="r">~534 (pre-war est.)</td>
+          <td class="r" style="padding-right:24px">Significant</td>
+          <td class="r" style="padding-right:24px">0 until Apr 2027</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--red)">No — zero deliveries</td>
+        </tr>
+        <tr>
+          <td><div>JDAM / Gravity Bombs</div><div class="sub">Primary munition D+5 onward</div></td>
+          <td class="r">Large</td>
+          <td class="r" style="padding-right:24px">~2,600+ (H+100)</td>
+          <td class="r" style="padding-right:24px">Large</td>
+          <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--teal)">Yes — large inventory</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)">CSIS: "Production in FY 2026 will not fully cover usage to date and will therefore limit the hoped expansion of inventories." Risks are primarily in other theaters — Ukraine and the western Pacific — as high-demand munitions are diverted to Epic Fury.</p>
+  </div>
+
+  <!-- COALITION INTERCEPTS (Figure 5, Mar 5) -->
+  <div class="card">
+    <div class="ct">Figure 5 — Coalition Air Defense Intercepts Through D+3</div>
+    <div class="cn">Qatar, Bahrain, Kuwait, and UAE reported intercept numbers as of March 3, 2026. CSIS notes this "likely overestimates the number of kills" but shows coalition partners carrying significant air defense burden, preserving U.S. interceptor inventories. Source: CSIS Mar 5, 2026.</div>
+    <div class="two" style="margin-bottom:0">
+      <table class="t">
+        <thead>
+          <tr>
+            <th>Partner</th>
+            <th class="r" style="padding-right:24px">Missiles intercepted</th>
+            <th class="r">Drones intercepted</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Qatar</td>
+            <td class="r" style="padding-right:24px;font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+            <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+          </tr>
+          <tr>
+            <td>Bahrain</td>
+            <td class="r" style="padding-right:24px;font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+            <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+          </tr>
+          <tr>
+            <td>Kuwait</td>
+            <td class="r" style="padding-right:24px;font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+            <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+          </tr>
+          <tr>
+            <td>UAE</td>
+            <td class="r" style="padding-right:24px;font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+            <td class="r" style="font-family:'IBM Plex Mono',monospace;font-size:12px">Reported</td>
+          </tr>
+          <tr class="total">
+            <td><strong>Coalition total (reported)</strong></td>
+            <td class="r vn" style="padding-right:24px"><strong>~500</strong></td>
+            <td class="r vn"><strong>~1,300</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <div class="strip tl" style="margin-bottom:10px">
+          <strong>Why this matters for cost</strong>
+          Iran launched 500 ballistic missiles and 2,000 drones by D+4 (per Adm. Cooper). The coalition's ~500 missile and ~1,300 drone intercepts "reduced the immediate burden on U.S. forces and preserved U.S. missile defense inventories." This is why CSIS's air defense cost estimate ($1.7B midpoint) sits well below the top of the stated range ($3.7B).
+        </div>
+        <div class="strip nv">
+          <strong>CSIS caveat</strong>
+          "While this likely overestimates the number of kills, it does show that these local allies and partners are carrying much of the air defense effort." Individual country breakdowns were not available in the CSIS figures — only the collective total of ~500 missiles and ~1,300 drones.
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="sec" id="s-context">Context — Comparisons &amp; Implications</div>
 
   <div class="card" style="margin-bottom:18px">
@@ -891,51 +1109,56 @@ footer a:hover{opacity:1}
   </div>
 
   <!-- FUNDING -->
-  <div class="sec">Funding Mechanisms <small>— CSIS analysis of how DOD will pay for this</small></div>
-  <div class="strip rd" style="margin-bottom:16px">
-    <strong>Supplemental appropriation will be required</strong>
-    Munitions replacement (~88% of the D+6 total) is entirely unbudgeted. CSIS: "The DOD will need additional funds at some point because the level of budget cuts needed to fund this conflict internally would likely be politically and operationally difficult." The White House had not publicly addressed war costs as of Mar 13. Any funding action "will become a focal point for opposition to the war."
-  </div>
-  <div class="scenario-grid">
-    <div class="scenario">
-      <div class="scenario-num">Option 01</div>
-      <div class="scenario-title">Supplemental Appropriation</div>
-      <div class="scenario-desc">Standalone bill covering war costs and other unexpected government expenses. Precedent: Bush administration used this at the start of Iraq and Afghanistan wars.</div>
-      <span class="s-tag s-likely">Strongest precedent</span>
+  <div class="sec">Funding <small>— from CSIS "Looking Ahead" section, Mar 5 &amp; Mar 13</small></div>
+
+  <div class="card">
+    <div class="ct">How DOD Might Pay for This</div>
+    <div class="cn">The following is drawn directly from CSIS analysis. All characterizations are CSIS's own words.</div>
+
+    <div class="strip nv" style="margin-bottom:12px">
+      <strong>CSIS — Mar 5 &amp; Mar 13, 2026</strong>
+      "The DOD will need additional funds at some point because the level of budget cuts needed to fund this conflict internally would likely be politically and operationally difficult." CSIS identifies three possible mechanisms, noting that "any funding action will become a focal point for opposition to the war."
     </div>
-    <div class="scenario">
-      <div class="scenario-num">Option 02</div>
-      <div class="scenario-title">FY2027 Reconciliation Bill</div>
-      <div class="scenario-desc">War costs folded into a future reconciliation bill. CSIS: "It is not clear whether there will be such a bill." Would delay funding and may face procedural constraints.</div>
-      <span class="s-tag s-poss">Possible</span>
-    </div>
-    <div class="scenario">
-      <div class="scenario-num">Option 03</div>
-      <div class="scenario-title">Divert Reconciliation Funds</div>
-      <div class="scenario-desc">Divert from the DOD's $150B already allocated in the first reconciliation bill. Would reduce funding for other defense priorities. CSIS: "politically and operationally difficult."</div>
-      <span class="s-tag s-unlik">Most difficult</span>
-    </div>
+
+    <table class="t">
+      <thead><tr><th>Mechanism</th><th>CSIS assessment</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><div>Supplemental appropriation</div><div class="sub">Standalone bill to cover war costs</div></td>
+          <td style="font-size:13px;color:var(--mid)">"The Trump administration might decide to ask for a supplemental appropriation to cover the war and any other unexpected expenses across the government. The Bush administration did that at the beginning of the wars in Iraq and Afghanistan."</td>
+        </tr>
+        <tr>
+          <td><div>FY2027 reconciliation bill</div><div class="sub">Fold costs into future legislation</div></td>
+          <td style="font-size:13px;color:var(--mid)">"The Trump administration might ask for the funds in a FY 2027 reconciliation bill, although it is not clear whether there will be such a bill."</td>
+        </tr>
+        <tr>
+          <td><div>Divert existing reconciliation funds</div><div class="sub">Redirect DOD's $150B from first reconciliation bill</div></td>
+          <td style="font-size:13px;color:var(--mid)">"The administration could ask Congress to divert some of the DOD's $150 billion from the first reconciliation bill to cover these expenses." CSIS notes this "would undermine the concept behind the increase: to build capability, not pay existing bills."</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-  <!-- NOTES -->
-  <div class="sec">Analytical Notes</div>
-  <div class="strip">
-    <strong>Cost is highly sensitive to munitions mix</strong>
-    CSIS explicitly flags this in both reports. A Tomahawk ($3.6M) costs 45× more than a JDAM kit ($80K). The shift confirmed on D+4 is the single largest driver of the declining daily rate. The opening wave — "multiple waves of cruise missiles" with 160+ Tomahawks — was the most expensive phase.
-  </div>
-  <div class="strip tl">
-    <strong>Allied burden-sharing materially reduced U.S. costs</strong>
-    Qatar, Bahrain, Kuwait, and the UAE collectively intercepted ~500 cruise/ballistic missiles and ~1,300 drones by D+3. CSIS notes this "likely overestimates the number of kills" but reflects genuine burden-sharing that preserved U.S. interceptor stocks. Without this, air defense costs (range: $1.2B–$3.7B) could have approached the top of the range.
-  </div>
-  <div class="strip rd">
-    <strong>Western Pacific and Ukraine inventory spillover</strong>
-    FY2026 production cannot replenish usage: Tomahawk (190 units), Patriot (172), SM-3 (76), SM-6 (125). THAAD is most acute — no deliveries until April 2027, and the AN/TPY-2 radar loss further degrades missile defense. ATACMS production ended 2007 with ~1,000 remaining; PrSM is just entering production with ~60 units delivered. These shortfalls reduce deterrence credibility in the western Pacific and limit Ukraine support capacity.
-  </div>
-  <div class="strip nv">
-    <strong>What the Pentagon has not released</strong>
-    DOD has not provided: day-by-day cost figures, a confirmed breakdown of the $11.3B, a munitions-expended count by type, or any estimate of facility repair costs. CSIS notes: "The DOD has released few specifics on the ongoing operations, whereas in previous Middle East campaigns, it provided daily strike updates or regular statistical compendia." This tracker will be updated as new official data becomes available.
-  </div>
+</div>
 
+<div style="background:var(--navy);padding:20px 32px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+  <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4)">Share</span>
+  <a id="share-twitter" href="#" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:6px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.15)'" onmouseout="this.style.background='rgba(255,255,255,.08)'">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.841L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X / Twitter
+  </a>
+  <a id="share-bluesky" href="#" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:6px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.15)'" onmouseout="this.style.background='rgba(255,255,255,.08)'">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C3.202 1.803 1.404 1.982.913 2.334c-.49.352-.51.78-.51 1.348 0 .568.32 4.679.533 5.358.68 2.291 3.156 3.056 5.436 2.829 3.098-.31 5.886.117 5.628 3.098-.258 2.981-2.977 4.122-5.028 4.433-2.051.311-2.946.865-2.946 2.047 0 1.182 1.247 1.755 2.473 1.755 3.13 0 7.5-2.705 7.5-5.926V10.8zm0 0c1.087-2.114 4.046-6.053 6.799-7.995 1.999-1.002 3.797-.823 4.288-.471.49.352.51.78.51 1.348 0 .568-.32 4.679-.533 5.358-.68 2.291-3.156 3.056-5.437 2.829-3.097-.31-5.886.117-5.627 3.098.258 2.981 2.976 4.122 5.027 4.433 2.051.311 2.946.865 2.946 2.047 0 1.182-1.247 1.755-2.473 1.755-3.13 0-7.5-2.705-7.5-5.926V10.8z"/></svg>
+    Bluesky
+  </a>
+  <a id="share-linkedin" href="#" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:6px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.15)'" onmouseout="this.style.background='rgba(255,255,255,.08)'">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    LinkedIn
+  </a>
+  <a id="share-email" href="#" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:6px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.15)'" onmouseout="this.style.background='rgba(255,255,255,.08)'">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+    Email
+  </a>
 </div>
 
 <footer>
@@ -943,7 +1166,7 @@ footer a:hover{opacity:1}
     Sources: <a href="https://www.csis.org/analysis/iran-war-cost-estimate-update-113-billion-day-6-165-billion-day-12" target="_blank">CSIS Mar 13, 2026</a> ·
     <a href="https://www.csis.org/analysis/37-billion-estimated-cost-epic-furys-first-100-hours" target="_blank">CSIS Mar 5, 2026</a>
   </span>
-  <span>Beyond Parallel / Andy Lim Projects · not affiliated with CSIS · data as of Mar 13, 2026 · built with <a href="https://claude.ai" target="_blank">Claude</a></span>
+  <span>Not affiliated with CSIS · built with <a href="https://claude.ai" target="_blank">Claude</a></span>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
@@ -1316,6 +1539,22 @@ function updateRunningTotal() {
   }
 }
 
+/* ── SHARE LINKS ─────────────────────────────────── */
+function buildShareLinks() {
+  const url  = encodeURIComponent(window.location.href);
+  const text = encodeURIComponent('Operation Epic Fury cost tracker — $16.5B estimated through Day 12, based on CSIS analysis. Built with Claude.');
+
+  const tw = document.getElementById('share-twitter');
+  const bs = document.getElementById('share-bluesky');
+  const li = document.getElementById('share-linkedin');
+  const em = document.getElementById('share-email');
+
+  if (tw) tw.href = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+  if (bs) bs.href = `https://bsky.app/intent/compose?text=${text}%20${url}`;
+  if (li) li.href = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+  if (em) em.href = `mailto:?subject=Operation%20Epic%20Fury%20Cost%20Tracker&body=${text}%0A%0A${url}`;
+}
+
 /* ── INIT ────────────────────────────────────────── */
 window.addEventListener('load', () => {
   document.getElementById('live-date').textContent =
@@ -1325,6 +1564,7 @@ window.addEventListener('load', () => {
   animateComps();
   renderCSISCharts();
   updateRunningTotal();
+  buildShareLinks();
 });
 </script>
 </body>
