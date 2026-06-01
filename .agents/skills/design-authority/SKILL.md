@@ -51,6 +51,51 @@ rules, stop. That's a regression. Flag it instead of shipping it.
   Selection rules. The default for personal/non-CSIS work is WORKSHOP, never
   Publications.
 
+## Adopted practices (distilled from the source repos — now native, no install required)
+
+These are the genuinely useful bits, rewritten in my system. Because they live
+here, I get the value without installing the foreign skills or fighting their
+defaults.
+
+From taste-skill:
+- **Design Read before building.** Before generating any visual deliverable,
+  state one line: "Reading this as: <register> for <audience>, <intent>." For
+  CSIS work the register makes this deterministic; for WORKSHOP it forces a
+  deliberate choice instead of a default aesthetic.
+- **Corner-radius lock.** Pick ONE radius scale per composition and hold it
+  everywhere — all-sharp, or all-softened at a single value. Mixed radii
+  (round buttons in a square layout, etc.) is broken. My default leans sharp /
+  slightly-softened; never pill as a default.
+- **Same-family headline emphasis.** To emphasize a word inside a headline, use
+  italic or bold of the SAME font, not a random serif dropped into a sans
+  headline. Documented exception: the WORKSHOP Instrument Serif flourish is an
+  intentional, one-per-composition signature move — that's a deliberate
+  family mix, not an accidental one.
+
+From mattpocock:
+- **Grill ambiguous briefs first.** When a request is underspecified or
+  high-stakes, interrogate it before generating — surface the decisions, get
+  alignment, then build. Don't jump to output on a fuzzy brief.
+- **Handoff on long sessions.** Before passing pipeline or multi-step Claude
+  Code work to another agent (or a future session), compact what's done, what's
+  pending, and the key decisions into a short handoff note so context isn't lost.
+- **Optional per-repo CONTEXT.md.** For a repo with its own jargon (Korea
+  Digest, the timeline, a pipeline), a small shared-vocabulary doc keeps naming
+  consistent and cuts wasted tokens re-explaining terms each session. Worth it
+  only where the vocabulary is real and recurring.
+
+From pretext:
+- Capability to remember, not a rule: text height/overflow can be measured
+  without the DOM via `@chenglou/pretext`. Reach for it only in a project that
+  renders text to canvas/SVG/WebGL or needs dev-time "does this label wrap?"
+  checks. Not part of the default stack.
+
+Already covered by my system, so NOT re-adopted: the anti-default checklist
+(no AI-purple, no centered-hero-over-mesh, no three equal feature cards,
+no Inter+slate-900) — mine already says this. The dials (VARIANCE / MOTION /
+DENSITY) and the "use the official design-system package" rule don't fit my
+vanilla-HTML, register-driven workflow.
+
 ## Where imported design skills (taste-skill) MAY contribute
 
 Only on personal / WORKSHOP greenfield work where I have no existing register
